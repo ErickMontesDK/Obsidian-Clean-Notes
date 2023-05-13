@@ -37685,7 +37685,7 @@ var OpenAIRequestManager = class {
           const formattedMessages = [
             {
               role: "system",
-              content: "You are a helpful assistant named Obsidian Copilot."
+              content: "You are a helpful assistant named Copilot for Obsidian."
             },
             ...messages
           ];
@@ -37814,8 +37814,13 @@ ${message.content}`);
         addMessage
       );
     } catch (error) {
-      new import_obsidian.Notice("Error: Please check your API key and credentials.");
-      console.error("Error in streamManager.streamSSE:", error);
+      const errorData = JSON.parse(error.data);
+      if (errorData && errorData.error) {
+        new import_obsidian.Notice(
+          `OpenAI error: ${errorData.error.code}. Pls check the console for the full error message.`
+        );
+      }
+      console.error("Error in streamSSE:", error.data);
     }
   } else {
     try {
@@ -37833,8 +37838,8 @@ ${message.content}`);
       addMessage(botMessage);
       updateCurrentAiMessage("");
     } catch (error) {
-      new import_obsidian.Notice("Error: Please check your API key and credentials.");
-      console.error("Error in OpenAIRequest:", error);
+      new import_obsidian.Notice(`OpenAI non-streaming error: ${error.status}`);
+      console.error(error);
     }
   }
 };
@@ -37948,12 +37953,8 @@ function simplifyPrompt(selectedText) {
 ${selectedText}`;
 }
 function emojifyPrompt(selectedText) {
-  return `Please rewrite the following text in a fun way and insert emojis.Insert at as many places as possible, but don't make any 2 emojis together.
-The target text is between "---":
----
-${selectedText}
----
-`;
+  return `Please rewrite the following content in a fun way and insert emojis.Insert at as many places as possible, but don't have any 2 emojis together.
+Content: ${selectedText}`;
 }
 function removeUrlsFromSelectionPrompt(selectedText) {
   return `Please remove all URLs from the following text and return it without any other changes:
@@ -37961,11 +37962,12 @@ function removeUrlsFromSelectionPrompt(selectedText) {
 ${selectedText}`;
 }
 function rewriteTweetSelectionPrompt(selectedText) {
-  return `Please rewrite the following text to under 280 characters and return it without any other changes, make it as engaging as possible:
-${selectedText}`;
+  return `Please rewrite the following content to under 280 characters using simple sentences. Please follow the instruction strictly. Content:
+
+    + ${selectedText}`;
 }
 function rewriteTweetThreadSelectionPrompt(selectedText) {
-  return `Please follow the instructions closely step by step and rewrite the content to a thread. 1. Each paragraph must be under 280 characters. 2. The starting line is \`THREAD START
+  return `Please follow the instructions closely step by step and rewrite the content to a thread. 1. Each paragraph must be under 240 characters. 2. The starting line is \`THREAD START
 \`, and the ending line is \`
 THREAD END\`. 3. You must use \`
 
@@ -38115,17 +38117,21 @@ var Chat = ({
   const handleStopGenerating = () => {
     streamManager.stopStreaming();
   };
-  const createEffect = (eventType, promptFn) => {
+  const createEffect = (eventType, promptFn, custom_temperature) => {
     return () => {
       const handleSelection = async (selectedText, eventSubtype) => {
         const promptMessage = {
           message: promptFn(selectedText, eventSubtype),
           sender: USER_SENDER
         };
+        const updatedOpenAiParams = {
+          ...openAiParams,
+          ...custom_temperature && { temperature: custom_temperature }
+        };
         await getAIResponse(
           promptMessage,
           [],
-          openAiParams,
+          updatedOpenAiParams,
           streamManager,
           setCurrentAiMessage,
           addMessage,
@@ -38146,8 +38152,8 @@ var Chat = ({
   (0, import_react10.useEffect)(createEffect("simplifySelection", simplifyPrompt), []);
   (0, import_react10.useEffect)(createEffect("emojifySelection", emojifyPrompt), []);
   (0, import_react10.useEffect)(createEffect("removeUrlsFromSelection", removeUrlsFromSelectionPrompt), []);
-  (0, import_react10.useEffect)(createEffect("rewriteTweetSelection", rewriteTweetSelectionPrompt), []);
-  (0, import_react10.useEffect)(createEffect("rewriteTweetThreadSelection", rewriteTweetThreadSelectionPrompt), []);
+  (0, import_react10.useEffect)(createEffect("rewriteTweetSelection", rewriteTweetSelectionPrompt, 0.2), []);
+  (0, import_react10.useEffect)(createEffect("rewriteTweetThreadSelection", rewriteTweetThreadSelectionPrompt, 0.2), []);
   (0, import_react10.useEffect)(createEffect("rewriteShorterSelection", rewriteShorterSelectionPrompt), []);
   (0, import_react10.useEffect)(createEffect("rewriteLongerSelection", rewriteLongerSelectionPrompt), []);
   (0, import_react10.useEffect)(createEffect("eli5Selection", eli5SelectionPrompt), []);
@@ -38362,7 +38368,7 @@ var CopilotSettingTab = class extends import_obsidian5.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "Obsidian Copilot Settings" });
+    containerEl.createEl("h2", { text: "Copilot Settings" });
     containerEl.createEl("button", {
       text: "Reset to default settings",
       type: "button",
@@ -38527,7 +38533,7 @@ var CopilotPlugin = class extends import_obsidian6.Plugin {
     });
     this.addCommand({
       id: "generate-toc-prompt",
-      name: "Generate table of cotents for selection",
+      name: "Generate table of contents for selection",
       editorCallback: (editor) => {
         this.processSelection(editor, "tocSelection");
       }

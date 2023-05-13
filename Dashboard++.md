@@ -5,7 +5,11 @@ banner_x: 0
 banner_y: 0.5
 ---
 # Full Stack's Vault 
-## 1-  [[Notes and Resumes]]
+
+[[Notes and Resumes]]
+## 1-  Programming Basics
+- Design patterns
+	- [[Singleton]]
 ## 2-  Introducción
 -   Cómo funciona el internet
     -   WebServers, websites, webpages y Web Apps

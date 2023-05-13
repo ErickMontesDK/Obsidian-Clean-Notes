@@ -15,6 +15,9 @@
 .callout[data-callout="abstract"]{
     background-color:#006D8F80;
 }
+.callout[data-callout="example"]{
+    background-color:#8d0a82b8;
+}
 .callout[data-callout="info"]{
     background-color:rgba(80, 185, 180, .8);
 }

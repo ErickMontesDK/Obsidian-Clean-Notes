@@ -38,5 +38,6 @@
   "templater-obsidian",
   "url-namer",
   "obsidian-annotator",
-  "obsidian-habitica-integration"
+  "obsidian-habitica-integration",
+  "buttons"
 ]
