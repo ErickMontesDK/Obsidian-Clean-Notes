@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "templaterFiles": [
+    "mini-templates/codeSnippet.md",
+    "mini-templates/book-notes.md",
+    "Full Templates/Note Template.md"
+  ],
+  "newFileTemplates": [],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": true
+}

@@ -1,0 +1,251 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-admonition:insert-admonition",
+      "icon": "alert-triangle",
+      "name": "Admonition: Insert Admonition",
+      "mode": "desktop",
+      "color": "#e63946"
+    },
+    {
+      "id": "obsidian-hotkeys-for-templates:templater:mini-templates/codeSnippet.md",
+      "icon": "binary",
+      "name": "Insert Code Template",
+      "mode": "desktop",
+      "color": "#fce762"
+    },
+    {
+      "id": "obsidian-hotkeys-for-templates:templater:mini-templates/book-notes.md",
+      "icon": "book-open",
+      "name": "Insert book notes",
+      "mode": "desktop",
+      "color": "#fce762"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "icon": "bot",
+      "name": "Emoji picker",
+      "mode": "desktop",
+      "color": "#6ad65c"
+    },
+    {
+      "id": "highlightr-plugin:Blue",
+      "icon": "highlightr-pen-blue",
+      "name": "Highlight text ",
+      "mode": "desktop",
+      "color": "#39a2ae"
+    },
+    {
+      "id": "extract-url:extract-url",
+      "icon": "aperture",
+      "name": "Extract url content: Extract",
+      "mode": "desktop"
+    },
+    {
+      "id": "extract-url:import-url",
+      "icon": "aperture",
+      "name": "Extract url content: Import From Clipboard",
+      "mode": "desktop"
+    },
+    {
+      "id": "obsidian-rich-links:create-rich-links",
+      "icon": "chrome",
+      "name": "Rich Links: Create Rich Link",
+      "mode": "desktop"
+    },
+    {
+      "id": "cmdr:macro-2",
+      "icon": "layout-template",
+      "name": "Commander: Template in note created",
+      "mode": "desktop",
+      "color": "#a92bc9"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "command-palette:open",
+      "icon": "lucide-terminal-square",
+      "name": "Command palette: Open command palette",
+      "mode": "desktop",
+      "color": "#aa2bca"
+    },
+    {
+      "id": "switcher:open",
+      "icon": "package-search",
+      "name": "Quick switcher: Open quick switcher",
+      "mode": "any",
+      "color": "#e63946"
+    },
+    {
+      "id": "copilot:chat-toggle-window",
+      "icon": "message-square",
+      "name": "Copilot: Toggle Copilot Chat Window",
+      "mode": "desktop",
+      "color": "#26aac5"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "download",
+      "name": "Obsidian Git: Pull",
+      "mode": "desktop"
+    },
+    {
+      "id": "obsidian-git:open-diff-view",
+      "icon": "shuffle",
+      "name": "Obsidian Git: Open diff view",
+      "mode": "desktop"
+    },
+    {
+      "id": "cmdr:macro-0",
+      "icon": "upload-cloud",
+      "name": "Commander: git upload",
+      "mode": "desktop"
+    },
+    {
+      "id": "cmdr:macro-1",
+      "icon": "layout-template",
+      "name": " Insert New Note",
+      "mode": "desktop",
+      "color": "#dfcd57"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "homepage:open-homepage",
+      "icon": "home",
+      "name": "Homepage: Open homepage",
+      "mode": "any"
+    },
+    {
+      "id": "bookmarks:bookmark-current-view",
+      "icon": "lucide-bookmark-plus",
+      "name": "Bookmarks: Bookmark...",
+      "mode": "any"
+    },
+    {
+      "id": "creases:toggle-fold-heading-level-2",
+      "icon": "dice-1",
+      "name": "Creases: Toggle fold for H2",
+      "mode": "any",
+      "color": "#39a2ae"
+    },
+    {
+      "id": "creases:toggle-fold-heading-level-3",
+      "icon": "dice-2",
+      "name": "Creases: Toggle fold for H3",
+      "mode": "any",
+      "color": "#39a2ae"
+    },
+    {
+      "id": "creases:toggle-fold-heading-level-4",
+      "icon": "dice-3",
+      "name": "Creases: Toggle fold for H4",
+      "mode": "any",
+      "color": "#39a2ae"
+    },
+    {
+      "id": "number-headings-obsidian:number-headings",
+      "icon": "file-digit",
+      "name": "Number Headings: Number all headings in document",
+      "mode": "desktop",
+      "color": "#aa2bca"
+    },
+    {
+      "id": "obsidian-annotator:toggle-annotation-mode",
+      "icon": "book-open",
+      "name": "Annotator: Toggle Annotation/Markdown Mode",
+      "mode": "any",
+      "color": "#fbe662"
+    },
+    {
+      "id": "auto-classifier:classify-tag-content",
+      "icon": "hash",
+      "name": "Auto Classifier: Classify tag from Note Content",
+      "mode": "desktop",
+      "color": "#fce762"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-git:commit"
+        },
+        {
+          "action": 1,
+          "delay": "2250"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-git:push2"
+        }
+      ],
+      "name": "git upload",
+      "icon": "upload-cloud",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "templater-obsidian:create-new-note-from-template"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-banners:banners:addBanner"
+        }
+      ],
+      "name": "Insert New Note",
+      "icon": "layout-template",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-hotkeys-for-templates:templater:Full Templates/Note Template.md"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-banners:banners:addBanner"
+        }
+      ],
+      "name": "Template in note created",
+      "icon": "layout-template",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Quick Audio Note with Transcription",
+      "Open graph view",
+      "Create new canvas",
+      "Copilot Chat",
+      "Open command palette",
+      "Open homepage",
+      "Templater",
+      "Open quick switcher"
+    ]
+  },
+  "spacing": "30",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

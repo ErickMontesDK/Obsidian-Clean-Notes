@@ -1,0 +1,14 @@
+{
+  "readableLineLength": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "defaultViewMode": "preview",
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": false,
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "attachmentFolderPath": "Images"
+}

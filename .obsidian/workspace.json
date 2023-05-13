@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "3165037bffb5e7ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f5f513652fff2e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8357cdbab6d135b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cffc979e4dca5388",
+    "type": "split",
+    "children": [
+      {
+        "id": "04574a7a414d21d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51cb123840290b32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4b8a831a7066d048",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f62ad5a853e6c895",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0adf071aaa42f0f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "858d1f466ba74ba1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f846f2a9a036e40b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b2c93a7166c3864d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard++.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aded7d97eb33cf4f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a1aa47f0b0f943f0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "af1af1af950f3109",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-audio-notes:Quick Audio Note with Transcription": false,
+      "companion:Toggle completion": true,
+      "homepage:Open homepage": false,
+      "obsidian-rich-links:Rich Links": true,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "cmdr: Insert New Note": false,
+      "command-palette:Open command palette": false,
+      "cmdr:Command palette: Open command palette": false,
+      "cmdr:Quick switcher: Open quick switcher": false,
+      "cmdr:Copilot: Toggle Copilot Chat Window": false,
+      "cmdr:Obsidian Git: Pull": false,
+      "cmdr:Obsidian Git: Open diff view": false,
+      "cmdr:Commander: git upload": false
+    }
+  },
+  "active": "51cb123840290b32",
+  "lastOpenFiles": [
+    "Die-Bücher/Learning-Patterns.pdf",
+    "Die-Bücher/Learning-Pattern.pdf",
+    "Die-Bücher/Learning-Pattern.pdf",
+    "Die-Bücher/Learning-Patterns - Acceso directo.lnk",
+    "Learning-Patterns - Acceso directo.lnk",
+    "Notes and Resumes.md",
+    "Dashboard++.md",
+    "Notes/Build Beautiful Websites!.md",
+    "Templates/Full Templates/Note Template.md",
+    "Templates/Decorative images/bat-logo-white.png",
+    "Templates/mini-templates/book-notes.md",
+    "Die-Bücher/Sin confirmar 53444.crdownload",
+    "Die-Bücher",
+    "Notes",
+    "Templates/Decorative images/bat-logo-black.png",
+    "Templates/Decorative images/Leonardo_Diffusion_A_detailed_illustration_coder_coding_on_lap_2.jpg",
+    "Templates/Decorative images/Leonardo_Diffusion_A_detailed_illustration_coder_coding_on_lap_2.jpg.crdownload",
+    "Templates/Decorative images",
+    "Templates/banners/react-banner.jpg",
+    "Templates/banners/react-banner.jpg.crdownload",
+    "Templates/banners/html-banner.jpg",
+    "Templates/banners/js-banner.jpg",
+    "Templates/mini-templates/ThemeTitle.md",
+    "Templates/mini-templates/codeSnippet.md",
+    "Templates/banners/banner-landing-page.jpg",
+    "Templates/banners/default-banner.png"
+  ]
+}

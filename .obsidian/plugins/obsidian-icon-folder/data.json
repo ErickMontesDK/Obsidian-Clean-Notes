@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasMeteor",
+      "FasBookJournalWhills",
+      "FasHouseChimney",
+      "FasImages",
+      "FasNotesMedical"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "Dashboard++.md": {
+    "iconName": "FasHouseChimney",
+    "inheritanceIcon": "FasArchway"
+  },
+  "Templates": "FasLayerGroup",
+  "Templates/banners": "FasFlag",
+  "Templates/Full Templates": "FasAlignCenter",
+  "Templates/mini-templates": "FasClipboard",
+  "Notes": "FasNotesMedical",
+  "Images": "FasImages",
+  "Die-Bücher": "FasBookJournalWhills",
+  "Notes and Resumes.md": "FasMeteor"
+}

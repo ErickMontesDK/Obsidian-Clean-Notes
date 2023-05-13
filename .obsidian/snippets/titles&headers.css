@@ -1,0 +1,50 @@
+.markdown-preview-section h1 {
+    top: 60px;
+    display: block;
+    position: absolute;
+    font-size: 26pt !important;
+    font-weight: bolder;
+    letter-spacing: 8px;
+
+    background-color: #222222;
+    border-radius: 9px;
+    color:white !important;
+    padding: 5px 10px 5px 10px;
+
+
+}
+
+.markdown-preview-view h2{
+    font-size:18px;
+    display: block;
+    background-color: rgba(255, 224, 71, 1);
+    color: #222222;
+    border-radius: 9px;
+    padding: 10px 0 10px 20px;
+    margin:20px 0px 20px 0px;
+    box-shadow: inset 5px -5px  rgba(205, 164, 71, 1);
+}
+
+.markdown-preview-view h3{
+    font-size:17px;
+    display: block;
+    border-radius: 9px;
+    background-color: rgba(224, 68, 98, 1);
+    color: #222222;
+    padding: 10px 0 10px 20px;
+    margin:20px 0px 20px 0px;
+    box-shadow: inset 5px -5px rgba(22,22,22,0.2);
+}
+
+.markdown-preview-view h4{
+    font-size: 16px;
+    min-width: 200px;
+    width: fit-content;
+    display: block;
+    border-radius: 9px;
+    background-color: #39A2AE;
+    padding: 5px 20px 3px 15px;
+    color: white;
+    margin:20px 0px 10px 0px;
+    border-bottom:7px solid rgba(22,22,22,0.2);
+}
