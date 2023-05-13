@@ -1,5 +1,5 @@
 {
-  "openAiApiKey": "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",
+  "openAiApiKey": "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",
   "defaultModel": "gpt-3.5-turbo",
   "temperature": "0.7",
   "maxTokens": "1000",

@@ -123,20 +123,27 @@
             }
           },
           {
-            "id": "af1af1af950f3109",
+            "id": "322ad7e70d62e14a",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "b32d5d93d77ff80b",
+            "type": "leaf",
+            "state": {
+              "type": "example-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 506.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,17 +155,19 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "cmdr: Insert New Note": false,
       "command-palette:Open command palette": false,
+      "obsidian-habitica-integration:Open Habitica Pane": false,
       "cmdr:Command palette: Open command palette": false,
       "cmdr:Quick switcher: Open quick switcher": false,
       "cmdr:Copilot: Toggle Copilot Chat Window": false,
       "cmdr:Obsidian Git: Pull": false,
       "cmdr:Obsidian Git: Open diff view": false,
-      "cmdr:Commander: git upload": false
+      "cmdr:Commander: git upload": false,
+      "cmdr: Insert New Note": false,
+      "cmdr:Habitica Sync: Open Pane": false
     }
   },
-  "active": "51cb123840290b32",
+  "active": "b32d5d93d77ff80b",
   "lastOpenFiles": [
     "Die-Bücher/Learning-Patterns.pdf",
     "Die-Bücher/Learning-Pattern.pdf",

@@ -111,6 +111,13 @@
       "name": " Insert New Note",
       "mode": "desktop",
       "color": "#dfcd57"
+    },
+    {
+      "id": "obsidian-habitica-integration:habitica-view-open",
+      "icon": "hand-metal",
+      "name": "Habitica Sync: Open Pane",
+      "mode": "desktop",
+      "color": "#6ad65c"
     }
   ],
   "rightRibbon": [],
