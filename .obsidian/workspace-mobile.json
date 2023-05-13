@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "d353772624cebe75",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7a30d2316256d59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b84c272458d9ffa9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Notes/Learning Patterns.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "200facfe763dcf7c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3706adbb57e3bc59",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "bd6d0fca506db95d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2452b483f747b04e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "10100c26cc52f551",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4c3a42097e2a3eb4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Notes/Learning Patterns.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "61262008913b3a65",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Notes/Learning Patterns.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "obsidian-audio-notes:Quick Audio Note with Transcription": false,
+      "homepage:Open homepage": false,
+      "obsidian-rich-links:Rich Links": false,
+      "templater-obsidian:Templater": false,
+      "cmdr:Quick switcher: Open quick switcher": false,
+      "cmdr:Obsidian Git: Pull": false,
+      "cmdr:Commander: git upload": false
+    }
+  },
+  "active": "b84c272458d9ffa9",
+  "lastOpenFiles": [
+    "Notes and Resumes.md",
+    "Notes/Learning Patterns.md",
+    "Dashboard++.md",
+    "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
+    "Work/Personnel/Sally Smith.md",
+    "Work/Personnel/Olga Olson.md",
+    "Work/Personnel/Brad Jefferson.md",
+    "Work/Personnel/Bill Hansen.md",
+    "Work/Projects/IT Cybersecurity training.md",
+    "Work/Projects/Firewall upgrades.md",
+    "Work/Projects/Cloud backup.md",
+    "Work/Budget/Q4 2022.md"
+  ]
+}

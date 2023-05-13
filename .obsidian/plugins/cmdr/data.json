@@ -91,7 +91,7 @@
       "id": "obsidian-git:pull",
       "icon": "download",
       "name": "Obsidian Git: Pull",
-      "mode": "desktop"
+      "mode": "any"
     },
     {
       "id": "obsidian-git:open-diff-view",
@@ -103,7 +103,7 @@
       "id": "cmdr:macro-0",
       "icon": "upload-cloud",
       "name": "Commander: git upload",
-      "mode": "desktop"
+      "mode": "any"
     },
     {
       "id": "cmdr:macro-1",
