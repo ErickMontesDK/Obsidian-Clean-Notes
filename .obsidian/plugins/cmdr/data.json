@@ -21,7 +21,7 @@
       "id": "obsidian-hotkeys-for-templates:templater:mini-templates/book-notes.md",
       "icon": "book-open",
       "name": "Insert book notes",
-      "mode": "desktop",
+      "mode": "any",
       "color": "#fce762"
     },
     {
@@ -60,7 +60,7 @@
       "id": "cmdr:macro-2",
       "icon": "layout-template",
       "name": "Commander: Template in note created",
-      "mode": "desktop",
+      "mode": "any",
       "color": "#a92bc9"
     }
   ],
@@ -218,11 +218,11 @@
       "macro": [
         {
           "action": 0,
-          "commandId": "obsidian-hotkeys-for-templates:templater:Full Templates/Note Template.md"
+          "commandId": "obsidian-banners:banners:addBanner"
         },
         {
           "action": 0,
-          "commandId": "obsidian-banners:banners:addBanner"
+          "commandId": "obsidian-hotkeys-for-templates:templater:Full Templates/Note Template.md"
         }
       ],
       "name": "Template in note created",

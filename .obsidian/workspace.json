@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard++.md",
+                "file": "Notes/Learning Patterns.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard++.md",
+                "file": "Notes/Learning Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard++.md"
+                "file": "Notes/Learning Patterns.md"
               }
             }
           },
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 506.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,13 +177,13 @@
   },
   "active": "f8357cdbab6d135b",
   "lastOpenFiles": [
+    "Notes and Resumes.md",
+    "Notes/Learning Patterns.md",
+    "Dashboard++.md",
+    "Die-Bücher/Learning-Pattern.pdf",
     "Die-Bücher/Learning-Patterns.pdf",
-    "Die-Bücher/Learning-Pattern.pdf",
-    "Die-Bücher/Learning-Pattern.pdf",
     "Die-Bücher/Learning-Patterns - Acceso directo.lnk",
     "Learning-Patterns - Acceso directo.lnk",
-    "Notes and Resumes.md",
-    "Dashboard++.md",
     "Notes/Build Beautiful Websites!.md",
     "Templates/Full Templates/Note Template.md",
     "Templates/Decorative images/bat-logo-white.png",
