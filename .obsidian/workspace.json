@@ -11,8 +11,12 @@
             "id": "f8357cdbab6d135b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard++.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dashboard++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dashboard++.md"
+              }
             }
           },
           {
@@ -167,7 +174,7 @@
       "cmdr:Habitica Sync: Open Pane": false
     }
   },
-  "active": "b32d5d93d77ff80b",
+  "active": "f8357cdbab6d135b",
   "lastOpenFiles": [
     "Die-Bücher/Learning-Patterns.pdf",
     "Die-Bücher/Learning-Pattern.pdf",
