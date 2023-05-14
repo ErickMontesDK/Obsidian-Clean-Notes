@@ -1,5 +1,19 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "flashcards": {
+      "type": "flashcards",
+      "color": "0, 0, 0",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-brain-circuit"
+      },
+      "command": false,
+      "title": "Die Flashcards",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
   "syntaxHighlight": false,
   "copyButton": false,
   "version": "9.3.1",

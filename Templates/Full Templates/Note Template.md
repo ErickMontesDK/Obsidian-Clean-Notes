@@ -6,6 +6,12 @@ banner_y: 0.7
 
 # Template 
 
+```ad-flashcards
+title: ## Die Flashcards
+collapse:
+text
+```
+
 ````ad-info
 title: Index
 collapse: 
@@ -20,5 +26,6 @@ collapse:
 
 <hr>
 
+![[bat-logo-black.png|150]]
 
 

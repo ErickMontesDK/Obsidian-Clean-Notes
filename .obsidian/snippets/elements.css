@@ -1,3 +1,11 @@
+.root{
+  --black: #222222;
+  --grey: #3d3d3d;
+  --white: #cccccc;
+  --purple: #AA2BCA35;
+  --red: #E6394640;
+}
+
 hr {
     border: none;
     width: 100%;
@@ -5,4 +13,3 @@ hr {
     color: #333;  /* old IE */
     background-color: #333;  /* Modern Browsers */
   }
-  

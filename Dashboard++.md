@@ -10,6 +10,10 @@ banner_y: 0.5
 ## 1-  Programming Basics
 - Design patterns
 	- [[Singleton]]
+	- [[Proxy Pattern]]
+	- [[Provider Pattern]]
+	- [[Prototype Pattern]]
+	- [[Presentational Pattern]]
 ## 2-  Introducción
 -   Cómo funciona el internet
     -   WebServers, websites, webpages y Web Apps
@@ -26,12 +30,40 @@ banner_y: 0.5
     -   SOAP
 
 ## 3-  Front End
-- 🏡 Remodeling Projects
-	- [[Bathroom Remodel]]
-	- [[Paint entryway]]
-	- [[Research building Garage]] 
- - ✍️ Writing Projects
-	- [[5 ways to love PKM ]]
+- ⚛️ React
+	-   Comandos básicos
+	    -   Cómo iniciar un nuevo proyecto
+	-   Introducción y conceptos clave
+	    -   Qué es React y por qué usarlo
+	    -   Cómo funciona React y qué conceptos clave hay que conocer
+	-   Estructura y componentes
+	    -   Assets
+	    -   Elements
+	    -   Composition
+	        -   Children props
+	        -   Componetes especializados
+	        -   Higher Order Components
+	        -   [[Render Props]]
+	-   JSX y props
+	    -   Transpiling
+	    -   Props.children
+	    -   Styling a single componente
+	-   State y hooks
+	    -   Reglas de los hooks
+	    -   [[Context API]]
+	    -   useReducer
+	    -   useRef
+	    -   Custom hooks
+	-   Eventos y navegación
+	    -   Eventos sintéticos y cómo manejarlos
+	    -   Router y cómo crear rutas dinámicas
+	-   Formularios y side effects
+	    -   Controlled y uncontrolled components
+	    -   Side effects y cómo trabajar con datos externos y APIs
+	-   Otras utilidades y testing
+	    -   React.memo y componentes puros
+	    -   React.cloneElement y React.child
+	    -   Testing with React
 
 ## 4-  Back End
 - 💼 Projects

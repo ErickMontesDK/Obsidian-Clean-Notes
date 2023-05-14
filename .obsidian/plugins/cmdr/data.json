@@ -32,9 +32,9 @@
       "color": "#6ad65c"
     },
     {
-      "id": "highlightr-plugin:Blue",
-      "icon": "highlightr-pen-blue",
-      "name": "Highlight text ",
+      "id": "highlightr-plugin:TrueCyan",
+      "icon": "highlightr-pen-truecyan",
+      "name": "Highlightr: TrueCyan",
       "mode": "desktop",
       "color": "#39a2ae"
     },

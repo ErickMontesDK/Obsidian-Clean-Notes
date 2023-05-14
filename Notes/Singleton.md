@@ -159,23 +159,23 @@ Estas alternativas tienen sus propias ventajas y desventajas, y dependen del tip
 
 ## 4-  DIE FLASHCARDS
 
-#### ¿Qué es un singleton y cómo se crea?
+#### 4.1.1-  ¿Qué es un singleton y cómo se crea?
 
 Un singleton es una clase que solo se puede instanciar una vez. Se puede crear con un constructor que verifique si ya existe una instancia o con un objeto regular que se exporte desde un módulo.
 
-#### ¿Qué ventajas tiene usar singletons?
+#### 4.1.2-  ¿Qué ventajas tiene usar singletons?
 
 Las ventajas son que ahorran memoria, permiten acceder al estado global y evitan inconsistencias.
 
-#### ¿Qué desventajas tiene usar singletons?
+#### 4.1.3-  ¿Qué desventajas tiene usar singletons?
 
 Las desventajas son que dificultan el testing, aumentan el acoplamiento, complican el flujo de datos, violan el principio de responsabilidad única e impiden el polimorfismo.
 
-#### ¿Qué alternativas existen para manejar el estado global?
+#### 4.1.4-  ¿Qué alternativas existen para manejar el estado global?
 
 Algunas alternativas son usar herramientas como Redux o React Context, que crean un almacén centralizado de datos y lo exponen mediante acciones y selectores; usar patrones como Observer o Pub/Sub, que crean eventos y suscriptores para comunicar los cambios de estado; o usar hooks personalizados o servicios inyectables, que encapsulan la lógica y los datos del estado global y los exponen mediante funciones o métodos.
 
-#### ¿Cómo se evita que se modifique el singleton?
+#### 4.1.5-  ¿Cómo se evita que se modifique el singleton?
 
 Se puede evitar que se modifique el singleton usando el método Object.freeze, que impide que se agreguen, eliminen o cambien las propiedades y métodos del objeto.
 

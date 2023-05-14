@@ -1,5 +1,4 @@
 [
-  "obsidian-better-codeblock",
   "obsidian-admonition",
   "obsidian-audio-notes",
   "auto-classifier",
@@ -12,7 +11,6 @@
   "customizable-page-header-buttons",
   "dataview",
   "obsidian-dynamic-toc",
-  "obsidian-embedded-code-title",
   "emoji-shortcodes",
   "obsidian-emoji-toolbar",
   "execute-code",
@@ -39,5 +37,6 @@
   "url-namer",
   "obsidian-annotator",
   "obsidian-habitica-integration",
-  "buttons"
+  "buttons",
+  "codeblock-customizer"
 ]
