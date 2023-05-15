@@ -1,10 +1,10 @@
 ---
-banner: "![[default-banner.png]]"
+banner: "![[react-banner.jpg]]"
 banner_x: 0.7
 banner_y: 0.7
 ---
 
-# Template 
+# Higher Order Component 
 
 ```ad-flashcards
 title: ## Die Flashcards

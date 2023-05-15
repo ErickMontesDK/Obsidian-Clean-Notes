@@ -6,6 +6,7 @@
       {
         "id": "244deafc3ce3f1f3",
         "type": "tabs",
+        "dimension": 52.93696275071633,
         "children": [
           {
             "id": "1b6c2399c14604e4",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Presentational Pattern.md",
+                "file": "Notes/Higher Order Component.md",
                 "mode": "preview",
                 "source": true
               }
@@ -25,6 +26,7 @@
       {
         "id": "986a34cc375f3f2c",
         "type": "tabs",
+        "dimension": 47.06303724928367,
         "children": [
           {
             "id": "e8078f6774a434be",
@@ -32,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Presentational Pattern.md",
+                "file": "Notes/Higher Order Component.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Presentational Pattern.md",
+                "file": "Notes/Higher Order Component.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Presentational Pattern.md"
+                "file": "Notes/Higher Order Component.md"
               }
             }
           },
@@ -200,8 +202,17 @@
   "active": "1b6c2399c14604e4",
   "lastOpenFiles": [
     "Dashboard++.md",
-    "Notes/Presentational Pattern.md",
+    "Notes/Higher Order Component.md",
+    "Mediator/Middleware Pattern.md",
+    "Images/Pasted image 20230515003749.png",
+    "Images/Pasted image 20230515001347.png",
+    "Mediator",
+    "Notes/Mixin Pattern.md",
+    "Notes/Module Pattern.md",
+    "Notes/Observer Pattern.md",
     "Templates/Full Templates/Note Template.md",
+    "Images/Pasted image 20230514195639.png",
+    "Notes/Presentational Pattern.md",
     "Images/Pasted image 20230514023028.png",
     "Images/Pasted image 20230514023012.png",
     "Notes/Prototype Pattern.md",
@@ -229,10 +240,6 @@
     "Die-Bücher/Sin confirmar 53444.crdownload",
     "Die-Bücher",
     "Notes",
-    "Templates/Decorative images/bat-logo-black.png",
-    "Templates/Decorative images/Leonardo_Diffusion_A_detailed_illustration_coder_coding_on_lap_2.jpg",
-    "Templates/Decorative images/Leonardo_Diffusion_A_detailed_illustration_coder_coding_on_lap_2.jpg.crdownload",
-    "Templates/banners/react-banner.jpg",
     "Templates/mini-templates/ThemeTitle.md"
   ]
 }

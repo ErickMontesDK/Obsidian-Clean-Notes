@@ -7,13 +7,18 @@ banner_y: 0.5
 # Full Stack's Vault 
 
 [[Notes and Resumes]]
-## 1-  Programming Basics
-- Design patterns
+## 1-  📏Programming Basics
+- 🎨Design patterns
 	- [[Singleton]]
 	- [[Proxy Pattern]]
 	- [[Provider Pattern]]
 	- [[Prototype Pattern]]
 	- [[Presentational Pattern]]
+	- [[Observer Pattern]]
+	- [[Module Pattern]]
+	- [[Mixin Pattern]]
+	- [[Mediator/Middleware Pattern]]
+	- [[Higher Order Component | HOC Pattern]]
 ## 2-  Introducción
 -   Cómo funciona el internet
     -   WebServers, websites, webpages y Web Apps

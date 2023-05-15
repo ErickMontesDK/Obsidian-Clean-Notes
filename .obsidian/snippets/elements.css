@@ -13,3 +13,13 @@ hr {
     color: #333;  /* old IE */
     background-color: #333;  /* Modern Browsers */
   }
+
+img {
+  border-radius: 20px ;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.codeblock-customizer-icon-container img, hr.finale + img{
+  border-radius: initial;
+  border: initial;
+} 
