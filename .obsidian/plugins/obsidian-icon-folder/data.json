@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasHeartCrack",
       "FasCirclePlay",
       "FasMeteor",
       "FasBookJournalWhills",
-      "FasHouseChimney",
-      "FasImages"
+      "FasHouseChimney"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,5 +34,6 @@
   "Images": "FasImages",
   "Die-Bücher": "FasBookJournalWhills",
   "Notes and Resumes.md": "FasMeteor",
-  "Templates/Buttons": "FasCirclePlay"
+  "Templates/Buttons": "FasCirclePlay",
+  "Templates/Decorative images": "FasHeartCrack"
 }

@@ -12,6 +12,11 @@ collapse:
 text
 ```
 
+```ad-why
+title: ## What's the point
+collapse:
+```
+
 ````ad-info
 title: Index
 collapse: 

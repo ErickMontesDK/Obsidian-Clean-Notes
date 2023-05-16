@@ -49,7 +49,7 @@
 .callout[data-callout="flashcards"] h4{
     background-color: initial;
 }
-.callout[data-callout="flashcards"] h2{
+.callout[data-callout="flashcards"] h2, .callout[data-callout="why"] h2{
     background-color: initial;
     display: inline;
     box-shadow: initial;
@@ -63,5 +63,24 @@
 }
 .callout[data-callout="danger"] .admonition-title{
     color: #22222290;
+    mix-blend-mode:normal;
+}
+
+.callout[data-callout="flashcards"] li, .callout[data-callout="flashcards"] b, .callout[data-callout="flashcards"] a, .callout[data-callout="flashcards"] p, .callout[data-callout="flashcards"] h1, .callout[data-callout="flashcards"] h2, .callout[data-callout="flashcards"] h3, .callout[data-callout="flashcards"] h4,.callout[data-callout="flashcards"] .admonition-title-icon,.callout[data-callout="flashcards"]{
+    color:#222222;
+}
+.callout[data-callout="why"] li, .callout[data-callout="why"] b, .callout[data-callout="why"] a, .callout[data-callout="why"] p, .callout[data-callout="why"] h1, .callout[data-callout="why"] h2, .callout[data-callout="why"] h3, .callout[data-callout="why"] h4,.callout[data-callout="why"] .admonition-title-icon,.callout[data-callout="why"]{
+    color:#222222;
+}
+.callout[data-callout="flashcards"] .admonition-title{
+    color: #222222;
+    mix-blend-mode:normal;
+}
+.callout[data-callout="why"]{
+    background-color:#EF626C;
+    border-bottom:7px solid rgba(22,22,22,0.2);
+}
+.callout[data-callout="why"] .admonition-title{
+    color: #222222;
     mix-blend-mode:normal;
 }

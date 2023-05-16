@@ -8,7 +8,7 @@ banner_y: 0.5
 
 [[Notes and Resumes]]
 ## 1-  📏Programming Basics
-- 🎨Design patterns
+- 🧩Design patterns
 	- [[Singleton]]
 	- [[Proxy Pattern]]
 	- [[Provider Pattern]]
@@ -19,6 +19,11 @@ banner_y: 0.5
 	- [[Mixin Pattern]]
 	- [[Mediator/Middleware Pattern]]
 	- [[Higher Order Component | HOC Pattern]]
+	- [[Render Props]] ❌
+	- [[Flyweight Pattern]]
+	- [[Factory Pattern]]
+	- [[Compound Pattern]]
+	- [[Command Pattern]]
 ## 2-  Introducción
 -   Cómo funciona el internet
     -   WebServers, websites, webpages y Web Apps
