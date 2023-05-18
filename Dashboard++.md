@@ -24,7 +24,13 @@ banner_y: 0.5
 	- [[Factory Pattern]]
 	- [[Compound Pattern]]
 	- [[Command Pattern]]
-## 2-  Introducción
+## 2-  Caprichos
+- Three.js
+	- [[Preparar proyecto Three js]]
+	- [[Renderizado Three js|Renderizado y scene]]
+	- [[Camera Three js | Camera]]
+	- [[Objetos Three js | Objetos]]
+## 3-  Introducción
 -   Cómo funciona el internet
     -   WebServers, websites, webpages y Web Apps
     -   Web browser
@@ -39,7 +45,7 @@ banner_y: 0.5
     -   GraphQL
     -   SOAP
 
-## 3-  Front End
+## 4-  Front End
 - ⚛️ React
 	-   Comandos básicos
 	    -   Cómo iniciar un nuevo proyecto
@@ -75,7 +81,7 @@ banner_y: 0.5
 	    -   React.cloneElement y React.child
 	    -   Testing with React
 
-## 4-  Back End
+## 5-  Back End
 - 💼 Projects
 	- [[Cloud backup]]
 	- [[Firewall upgrades]]
@@ -86,7 +92,7 @@ banner_y: 0.5
 	- [[Q3 2022]]
 	- [[Q4 2022]]
 
-## 5-  DevOps
+## 6-  DevOps
 -   Introducción a DevOps
     -   ¿Qué es devops y por qué es importante?
     -   Beneficios y desafíos de devops
@@ -122,7 +128,7 @@ banner_y: 0.5
     -   Prometheus
     -   Grafana
 -   Infraestructura como código-Terraform"
-## 6-  UI/UX
+## 7-  UI/UX
 -   Fundamentos de UI/UX
     -   Procesos de diseño
         -   User Centered Design

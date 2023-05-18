@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard++.md",
+                "file": "Notes/Objetos Three js.md",
                 "mode": "preview",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard++.md",
+                "file": "Notes/Objetos Three js.md",
                 "mode": "source",
                 "source": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard++.md",
+                "file": "Notes/Objetos Three js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard++.md"
+                "file": "Notes/Objetos Three js.md"
               }
             }
           },
@@ -201,8 +201,14 @@
   },
   "active": "1b6c2399c14604e4",
   "lastOpenFiles": [
-    "Notes/Command Pattern.md",
     "Dashboard++.md",
+    "Notes/Objetos Three js.md",
+    "Notes/Camera Three js.md",
+    "Notes/Renderizado Three js.md",
+    "Notes/Renderizado y scene Three js.md",
+    "Notes/Preparar proyecto Three js.md",
+    "Templates/banners/3d-banner.png",
+    "Notes/Command Pattern.md",
     "Notes/Mixin Pattern.md",
     "Notes/Compound Pattern.md",
     "Notes/Factory Pattern.md",
@@ -230,21 +236,16 @@
     "Notes and Resumes.md",
     "Notes/Context API.md",
     "Images/Pasted image 20230513225444.png",
-    "Images/Pasted image 20230513225426.png",
     "Templates/mini-templates/codeSnippet.md",
     "Notes/Singleton.md",
     "Templates/Buttons/Untitled.md",
     "Templates/Buttons",
-    "Notes/Learning Patterns.md",
     "Die-Bücher/Learning-Pattern.pdf",
     "Die-Bücher/Learning-Patterns.pdf",
     "Die-Bücher/Learning-Patterns - Acceso directo.lnk",
     "Learning-Patterns - Acceso directo.lnk",
-    "Notes/Build Beautiful Websites!.md",
-    "Templates/mini-templates/book-notes.md",
     "Die-Bücher/Sin confirmar 53444.crdownload",
     "Die-Bücher",
-    "Notes",
-    "Templates/mini-templates/ThemeTitle.md"
+    "Notes"
   ]
 }
