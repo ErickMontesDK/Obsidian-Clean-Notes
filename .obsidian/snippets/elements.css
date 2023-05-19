@@ -23,3 +23,25 @@ img {
   border-radius: initial;
   border: initial;
 } 
+.markdown-preview-view strong{
+  font-weight: bolder;
+  color:whitesmoke;
+  background-color: #22222290;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  font-style: oblique;
+}
+.lc-list-callout {
+  margin-top: -20px;
+}
+.lc-list-callout .list-bullet{
+  display:none;
+}
+.lc-list-callout .list-collapse-indicator {
+  display: none;
+}
+
+div.list-collapse-indicator{
+  margin-right: -25px;
+}
+

@@ -109,6 +109,10 @@ camera.aspect = window.innerWidth / window.innerHeight;
 camera.updateProjectionMatrix(); 
 ```
 
+## 3-  Visualizar posición, orientación y el ángulo de visión de las cámaras
+![[Helpers#3- Visualizar posición orientación y el ángulo de visión de las cámaras]]
+
+
 <hr class="finale">
 
 ![[bat-logo-black.png|150]]

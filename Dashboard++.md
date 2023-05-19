@@ -30,6 +30,13 @@ banner_y: 0.5
 	- [[Renderizado Three js|Renderizado y scene]]
 	- [[Camera Three js | Camera]]
 	- [[Objetos Three js | Objetos]]
+	- [[Animation Three Js | Animation]]
+	- [[Iluminación Three js| Ilumination]]
+	- [[Sombras  en Three js | Sombras]]
+	- [[Helpers]]
+	- [[Interacciones Three js | Interacciones]]
+	- [[Dat.gui]]
+	- [[Responsive Three js]]
 ## 3-  Introducción
 -   Cómo funciona el internet
     -   WebServers, websites, webpages y Web Apps

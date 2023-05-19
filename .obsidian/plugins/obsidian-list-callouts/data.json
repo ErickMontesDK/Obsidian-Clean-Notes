@@ -32,5 +32,11 @@
     "color": "0, 251, 255",
     "icon": "lucide-brain-circuit",
     "custom": true
+  },
+  {
+    "char": "||",
+    "color": "238, 0, 255",
+    "icon": "lucide-cpu",
+    "custom": true
   }
 ]

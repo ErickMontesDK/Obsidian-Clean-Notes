@@ -132,7 +132,6 @@ manager.execute (new TrackOrderCommand ("1234"));
 manager.execute (new CancelOrderCommand ("1234"));
 ```
 
-
 <hr class="finale">
 
 ![[bat-logo-black.png|150]]

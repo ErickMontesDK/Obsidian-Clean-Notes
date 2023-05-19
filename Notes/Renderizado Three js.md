@@ -118,6 +118,16 @@ const cubeTexture = new THREE.CubeTextureLoader().load([
 scene.background = cubeTexture;
 ```
 
+## 3-  Activar renderizado de sombras
+Es necesario poder configurar las sombras en el renderizado para que estas se puedan mostrar. [Esto se hace con la siguiente línea de código](https://programmerclick.com/article/93281428047/)[1](https://programmerclick.com/article/93281428047/): ^5f44c6
+```
+// Activar el renderizado de sombras
+renderer.shadowMap.enabled = true;
+```
+Al activar el renderizado de sombras, se le indica al renderizador que genere un mapa de sombras para cada luz que pueda proyectar sombras. Un mapa de sombras es una imagen que almacena la información de la distancia entre la luz y los objetos de la escena. El renderizador usa este mapa para determinar qué zonas están iluminadas y qué zonas están en sombra.
+
+
+
 <hr class="finale">
 
 ![[bat-logo-black.png|150]]
